@@ -1,0 +1,37 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "12.14.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qiwi/bill-payments-node-js-sdk": "^3.2.0",
+    "cron": "^1.8.2",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "geo-tz": "^6.0.0",
+    "husky": "^4.2.5",
+    "moment": "^2.25.1",
+    "moment-timezone": "^0.5.28",
+    "mongoose": "^5.10.13",
+    "nanoid": "^3.1.5",
+    "qrcode-svg": "^1.1.0",
+    "randray": "^2.0.0",
+    "request": "^2.88.2",
+    "sharp": "^0.26.2",
+    "telegraf": "^3.38.0",
+    "telegraf-flow": "^8.3.0",
+    "telegraf-ratelimit": "^2.0.0",
+    "unique-string": "^2.0.0"
+  }
+}
